@@ -4,21 +4,18 @@
 *	Return: always zero
 */
 
-	int main(void)
-{
-	int i = '0';
+int main() {
+    int i;
 
-	while (i <= '9')
-		putchar(i);
+    for (i = 48; i < 58; i++) {
+        putchar(i);
+        if (i < 57) {
+            putchar(',');
+            putchar(' ');
+        }
+    }
 
-	if (i != '9')
-	{
-	putchar(',');
-	putchar(' ');
-	}
-	++i;
+    putchar('\n');
 
-	putchar('\n');
-
-	return (0);
+    return 0;
 }
