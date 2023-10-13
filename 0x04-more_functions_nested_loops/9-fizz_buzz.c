@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 *	main - prints the numbers from 1 to 100
 *	Return: 0
