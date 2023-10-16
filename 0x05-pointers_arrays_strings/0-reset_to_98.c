@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*	reset_to_98 - a function that takes a pointer to an int as parameter and updates the value
+*	reset_to_98 - a function that points to an int as parameter and updates the value
 *	@n: an integer input pointer
 *	Return: 0
 */
