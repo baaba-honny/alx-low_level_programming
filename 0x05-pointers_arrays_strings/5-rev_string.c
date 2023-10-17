@@ -15,12 +15,10 @@
 	{
 
 	char i;
+
 	i = s[n];
-
 	s[n] = s[count - 1 - n];
-
 	s[count - 1 - n] = i;
-
 	}
 }
 
