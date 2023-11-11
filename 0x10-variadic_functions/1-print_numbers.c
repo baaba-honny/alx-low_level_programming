@@ -16,7 +16,7 @@
 		if (i > 0 && separator)
 			printf("%s", separator);
 
-			printf("%d", va_arg(list, int);
+		printf("%d", va_arg(list, int));
 	}
 	va_end(list);
 	printf("\n");
