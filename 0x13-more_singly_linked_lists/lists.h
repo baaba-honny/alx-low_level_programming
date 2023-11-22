@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*	struct listint_t - self referential struct
+*	struct listint_s - self referential struct
 *	for nodes of a singly linked list
 *	@n: integer data
 *	@next: self referential pointer
