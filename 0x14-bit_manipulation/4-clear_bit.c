@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 *	clear_bit - sets the value of a bit to 0 at a given index.
 *	@n: parameter
@@ -10,6 +11,6 @@
 	if (index >= sizeof(n) * 8)
 		return (-1);
 
-	*n &= ~(1UL << index);
+	*n &= ~(1 << index);
 	return (1);
 }
