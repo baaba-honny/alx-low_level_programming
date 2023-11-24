@@ -14,7 +14,7 @@
 
 	for (i = 63; i >= 0; i--)
 	{
-		current = exclusive >> a;
+		current = exclusive >> i;
 		if (current & 1)
 			countbit++;
 	}
